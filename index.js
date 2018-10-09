@@ -3,7 +3,7 @@ function produceDrivingRange (blockRange){
     return marketMultiplier * manufacturePrice;
   };
 const eightBlockRange = produceDrivingRange(8);
-const eightBlockRange = produceDrivingRange(8);
+const twentyBlockRange = produceDrivingRange(20);
 
 }
 function produceTipCalculator(){
