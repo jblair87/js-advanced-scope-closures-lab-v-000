@@ -7,7 +7,7 @@ const twentyBlockRange = produceDrivingRange(20);
 
 }
 function produceTipCalculator(percentage){
-   return function(rider) {
+   return function(riderFare) {
   
 }
 
