@@ -9,10 +9,9 @@ function produceDrivingRange (blockRange){
   };
 }
 
-
 function produceTipCalculator(percentage){
    return function(riderFare) {
-  return riderFare*percentage;};
+  return riderFare * percentage;};
 }
 
 function createDriver(){
