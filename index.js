@@ -2,7 +2,8 @@ function produceDrivingRange (blockRange){
    return function(marketMultiplier) {
     return marketMultiplier * manufacturePrice;
   };
-const retailPriceForThree = produceDrivingRange(3);
+const eightBlockRange = produceDrivingRange(8);
+const eightBlockRange = produceDrivingRange(8);
 
 }
 function produceTipCalculator(){
