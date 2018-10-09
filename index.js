@@ -5,7 +5,6 @@ function produceDrivingRange (blockRange){
     return blockRange * distance;
   };
 }
-const twentyBlockRange = produceDrivingRange(20);
 
 
 function produceTipCalculator(percentage){
