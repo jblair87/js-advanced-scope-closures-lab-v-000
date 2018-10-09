@@ -8,7 +8,7 @@ const twentyBlockRange = produceDrivingRange(20);
 }
 function produceTipCalculator(percentage){
    return function(riderFare) {
-  return riderfare*percentage;};
+  return riderFare*percentage;};
 }
 
 function createDriver(){
