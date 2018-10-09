@@ -1,6 +1,7 @@
 function produceDrivingRange (blockRange){
 
    return function(start, end) {
+     let distance 
     return blockRange * distance;
   };
 }
