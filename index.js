@@ -3,6 +3,8 @@ function produceDrivingRange (blockRange){
     return blockRange * manufacturePrice;
   };
 }
+const twentyBlockRange = retailPriceMaker(9);
+
 
 function produceTipCalculator(percentage){
    return function(riderFare) {
