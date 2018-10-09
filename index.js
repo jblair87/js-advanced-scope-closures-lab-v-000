@@ -6,7 +6,7 @@ const eightBlockRange = produceDrivingRange(8);
 const twentyBlockRange = produceDrivingRange(20);
 
 }
-function produceTipCalculator(){
+function produceTipCalculator(percentage){
   
 }
 
