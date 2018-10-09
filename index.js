@@ -1,11 +1,9 @@
 function produceDrivingRange (blockRange){
-   return function(marketMultiplier) {
-    return marketMultiplier * manufacturePrice;
+   return function(manufacturePrice) {
+    return blockRange * manufacturePrice;
   };
-const eightBlockRange = produceDrivingRange(8);
-const twentyBlockRange = produceDrivingRange(20);
-
 }
+
 function produceTipCalculator(percentage){
    return function(riderFare) {
   return riderFare*percentage;};
