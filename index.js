@@ -1,6 +1,6 @@
 function produceDrivingRange (blockRange){
-   return function(manufacturePrice) {
-    return blockRange * manufacturePrice;
+   return function(distance) {
+    return blockRange * distance;
   };
 }
 const twentyBlockRange = produceDrivingRange(20);
